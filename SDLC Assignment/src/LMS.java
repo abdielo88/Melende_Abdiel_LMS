@@ -45,7 +45,7 @@ public class LMS
                     lms.removeBook(scanner);
                     break;
                 case EXIT_OPTION:
-                    lms.saveBooksToFile("books.txt");
+                    lms.saveBooksToFile(filePath);
                     System.out.println("You have exited the program.");
                     System.exit(0);
                     break;
